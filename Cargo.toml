@@ -1,0 +1,8 @@
+[package]
+name = "viz-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+portaudio = "0.7.0"
+crossterm = "0.28.1"
