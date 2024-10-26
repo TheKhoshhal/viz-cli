@@ -79,7 +79,7 @@ fn main() -> io::Result<()> {
 
                 sc.flush()?;
 
-                let sleep_time = time::Duration::from_millis(150);
+                let sleep_time = time::Duration::from_millis(100);
                 thread::sleep(sleep_time);
             } else {
                 panic!("sorry doesn't work yet");
